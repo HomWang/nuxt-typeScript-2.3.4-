@@ -1,6 +1,8 @@
 # 说明
+  Nuxt.js 和 Typescript (2.3.4 Nuxt.js版本号)  Demo
   nuxt-property-decorator 该库完全依赖于 vue-class-component
   在这里感谢两个的插件维护者
+  QQ交流群: 604203227
 
 ## 用法
 
@@ -128,17 +130,17 @@ export const MyComponent = Vue.extend({
 
 ``` bash
 # install dependencies
-$ yarn install
+$ yarn install OR npm install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ yarn run dev OR npm run dev
 
 # build for production and launch server
-$ yarn run build
-$ yarn start
+$ yarn run build OR npm run build
+$ yarn start OR npm start
 
 # generate static project
-$ yarn run generate
+$ yarn run generate OR npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

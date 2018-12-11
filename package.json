@@ -1,0 +1,31 @@
+{
+  "name": "NuxtTS",
+  "version": "1.0.0",
+  "description": "My super Nuxt.js project",
+  "author": "HomWang",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "express": "^4.16.3",
+    "element-ui": "^2.4.6",
+    "@nuxtjs/axios": "^5.0.0",
+    "nuxt-property-decorator": "^1.2.0",
+    "vuex-class": "^0.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "node-sass": "^4.9.4",
+    "sass-loader": "^7.1.0",
+    "nodemon": "^1.11.0",
+    "@types/node": "^9.4.6",
+    "ts-loader": "^5.2.2",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}

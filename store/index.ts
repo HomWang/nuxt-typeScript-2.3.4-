@@ -1,6 +1,5 @@
 export const state = () => ({
   people: [],
-  aaa: 'HomWang'
 })
 
 export const mutations = {
